@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+    <head>
+        <meta charset="UTF-8">
+        <title>Профиль da1sy</title>
+        <link rel="stylesheet" href="styles/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap" rel="stylesheet">
+    </head>
+        <header class="header-index">
+            <div class="logo">
+                <img class="logo logo-img" src="./images/4227.jpg" alt="da1sy avatar">
+                <span class="logo logo-text">da1sy</span>
+            </div>
+            <nav class="nav-index">
+                <ul>
+                    <li>Главная</li>
+                    <li>Биография</li>
+                    <li>Портфолио</li>
+                    <li>Услуги</li>
+                    <li>Отзывы</li>
+                    <li>Контакты</li>
+                </ul>
+            </nav>
+            <!-- Иконка бургер меню -->
+            <div class="burger">
+                <span></span>
+            </div>
+        </header>
+        <body>
+            <script>
+                document.querySelector('.burger').addEventListener('click', function() {
+                    this.classList.toggle('active');
+                    document.querySelector('.nav-index').classList.toggle('open');
+                })
+            </script>
+        </body>
+</html>
