@@ -466,7 +466,7 @@
 
 
   /* При разрешении экрана 900px и ниже, выводим на экран иконку бургера */
-  @media (max-width: 600px) {
+  @media (max-width: 1024px) {
 
     .burger { display: flex }
 
